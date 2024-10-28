@@ -1,0 +1,134 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, poppins;
+}
+
+/* Header */
+header {
+    background-color: #FE6271;
+    text-align: center;
+    padding: 15px 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+header .logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Form Container */
+.form-container {
+    background-color: #f9f9f9;
+    padding: 20px 15vw;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(161, 160, 160, 0.1);
+}
+
+
+.form-container h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group span {
+    font-size: 14px;
+    color: #333;
+}
+
+.nik-input {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nik-input .icon {
+    width: 20px;
+    height: 20px;
+    background-color: #e0e0e0;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+.nik-input input[type="text"] {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Buttons */
+.penjamin-group {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    flex: 1;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.button.active {
+    flex: 1;
+    background-color: #4da6ff;
+    color: #fff;
+}
+
+.button:not(.active) {
+    background-color: #ddd;
+    color: #333;
+}
+
+.submit-button {
+    background-color: #FE6271;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+}
+
+/* Select */
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    font-size: 14px;
+}

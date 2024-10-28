@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Pasien Online</title>
+    <link rel="stylesheet" href="form-styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" alt="Logo Pemerintah Kota Surabaya" class="logo">
+        <h1>PENDAFTARAN PASIEN ONLINE PEMERINTAH KOTA SURABAYA</h1>
+    </header>
+
+    <div class="form-container">
+        <h2>Pendaftaran</h2>
+        <form id="registrationForm">
+            <div class="form-group">
+                <label>Tanggal Layanan</label>
+                <span>Selasa, 29 Oktober 2024</span>
+            </div>
+
+            <div class="form-group">
+                <label>Sarana Kesehatan</label>
+                <span>Puskesmas Dupak</span>
+            </div>
+
+            <div class="form-group">
+                <label>Poliklinik</label>
+                <span>PSIKOLOGI</span>
+            </div>
+
+            <div class="form-group penjamin-group">
+                <label>Penjamin</label>
+                <button type="button" class="button active">Umum/Asuransi Lain</button>
+                <button type="button" class="button">BPJS Kesehatan</button>
+            </div>
+
+            <div class="form-group">
+                <label for="nik">NIK</label>
+                <div class="nik-input">
+                    <i class="icon"></i>
+                    <input type="text" id="nik" placeholder="Masukkan data NIK, kemudian tekan ENTER">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="suku">Suku</label>
+                <select id="suku">
+                    <option value="jawa">Jawa</option>
+                    <option value="sunda">Sunda</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="bahasa">Bahasa</label>
+                <select id="bahasa">
+                    <option value="indonesia">Indonesia</option>
+                    <option value="jawa">Jawa</option>
+                </select>
+            </div>
+
+            <button type="submit" class="submit-button">Daftar</button>
+
+        </form>
+    </div>
+
+    <footer>
+        <p>2014 - 2024 Dinas Kesehatan Kota Surabaya</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
